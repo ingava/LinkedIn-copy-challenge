@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: rgb(40, 62, 74);
+    padding-top: 15px;
+}
+
+.nav-wrapper, .content-wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.company-logo img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.search-bar input {
+    height: 34px;
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 10px;
+}
+
+.search-logo-wrapper {
+    display: flex;
+    max-width: 30%;
+    float: left;
+}
+
+.menu-items {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-item {
+    margin-left: 15px;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.home-item {
+    margin-top: -2px;
+}
+
+.profile-item {
+    margin-top: -7px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.profile-pic-wrapper {
+    width: 100%;
+}
+
+.profile-pic {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+i {
+    width: 100%;
+    text-align: center;
+}
+
+.fa {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.fa-home {
+    font-size: 20px;
+}
+
+.premium {
+    width: 70px;
+}
+
+.content-wrapper {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 22% 45% 30.5%;
+    grid-gap: 1.5%;
+}
+
+.profile-sidebar, .follow-sidebar {
+    border: solid 1px lightgrey;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 5px -10px #888;
+    text-align: center;
+}
+
+.profile-pic-large-wrapper {
+    width: 90px;
+    height: 90px;
+    margin: 30px auto;
+}
+
+.profile-pic-large {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.views, .connections {
+    color: dodgerblue;
+}
+
+.break-line {
+    margin: 20px auto;
+    width: 90%;
+    border-top: solid 1px lightgrey;
+}
+
+.profile {
+    padding: 0 10px 20px 10px;
+    border-bottom: solid 1px lightgrey;
+}
+
+.profile-name {
+    margin-bottom: 0;
+}
+
+.profile-profession {
+    margin-top: 0;
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: 300;
+}
+
+.views-headline, .connections-headline {
+    font-weight: 300;
+    color: grey;
+    margin: 5px;
+}
+
+.connections-headline {
+    margin-bottom: 0;
+}
+
+.impressions {
+    padding-top: 20px;
+}
+
+.network-headline {
+    margin-top: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.write-article, .article {
+    background: rgb(255, 255, 255);
+    border: solid 1px lightgrey;
+    box-shadow: 0 10px 5px -10px #888;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: dimgrey;
+}
+
+.main-break-line {
+    width: 100%;
+    margin: 14px auto;
+    border-top: solid 1px lightgrey;
+}
+
+.write-article--wrapper, .share-article--wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.write-article--share-headline {
+    margin: 0;
+}
+
+.write-article--write {
+    margin: 0;
+    width: 40%;
+}
+
+.fa-camera {
+    color: darkgray;
+    text-align: end;
+    width: 30%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.post-article--button {
+    background-color: rgb(0, 132, 191);
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    height: 25px;
+    border: none;
+    width: 60px;
+    cursor: pointer;
+}
+
+.fa-pencil-square-o {
+    color: darkgray;
+    width: 10%;
+}
+
+.follow-sidebar {
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
+
+.ad-headline {
+    font-weight: 300;
+}
+
+.ad-picture {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-title--wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.darker-font {
+    color: black;
+}
+
+.follow-button {
+    background-color: white;
+    border: solid 1px rgb(0, 132, 191);
+    color: rgb(0, 132, 191);
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.ad-motto {
+    font-size: 0.9rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.company-profile {
+    margin-left: 5px;
+}
+
+.company-profile span {
+    font-size: 0.8rem;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.company-name {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.likes {
+    color: darkgrey;
+    font-size: 0.8rem;
+}
+
+.article p {
+    font-size: 0.9rem;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+}
+
+.actions i {
+    color: grey;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.action-icon-wrapper {
+    margin-right: 5px;
+}
